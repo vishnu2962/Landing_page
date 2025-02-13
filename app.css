@@ -177,7 +177,7 @@ p {
     height: calc(65vh - var(--nav-height));
     min-height: 400px;
     text-align: center;
-    margin-bottom:10rem;
+    margin-bottom:15rem;
 }
 
 .hero-section-tags {
