@@ -1,0 +1,267 @@
+
+
+:root {
+    --nav-height: 100px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+.container {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: "poppins", sans-serif;
+    color: #495057;
+    display: inline-block;
+}
+
+a:link, a:visited{
+    color: #9775fa;
+}
+
+a:hover, a:active{
+    color:  #7048e8;
+}
+
+ul {
+ list-style: none;
+}
+
+/* .header {
+    height: 100vh;
+    min-height: 800px;
+} */
+
+span {
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 6.2rem;
+    font-family: "poppins", sans-serif;
+    color: #212529;
+}
+
+h2 {
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 4.8rem;
+    font-family: "poppins", sans-serif;
+    color: #212529;
+}
+
+h3 {
+    line-height: 1.2;
+    letter-spacing: 0px;
+    font-size: 4rem;
+    font-family: "poppins", sans-serif;
+    color: #212529;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 2rem;
+    font-family: "poppins", sans-serif;
+    color: #495057;
+}
+
+.btn {
+    font-weight: 400;
+    font-family: "poppins",sans-serif;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 1.5rem 3rem;
+    border-radius: 8px;
+}
+
+.btn-primary:link, .btn-primary:visited {
+    color: white;
+    background-color: #339af0;
+    border: 2px solid  #339af0;
+}
+
+.btn-primary:hover ,.btn-primary:active{
+
+    color: white;
+    background-color: #1c7ed6;
+    border: 2px solid  #1c7ed6;
+}
+
+.btn-primary-outline:link, .btn-primary-outline:visited{
+    color:#339af0;
+    background-color: white;
+    border: 2px solid  #339af0;
+}
+
+.btn-primary-outline:hover, .btn-primary-outline:active{
+    color:#1c7ed6;
+    background-color: white;
+    border: 2px solid  #1c7ed6;
+}
+
+
+
+.btn-secondary:link, .btn-secondary:visited{
+    color: white;
+    background-color: #9775fa;
+    border: 2px solid #9775fa;
+}
+
+.btn-secondary:hover, .btn-secondary:active{
+    color: white;
+    background-color: #7048e8;
+    border: 2px solid #7048e8;
+}
+
+.highlight {
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+
+}
+
+.highlight-primary {
+    background-color: #339af0;
+}
+.highlight-secondary {
+    background-color: #9775fa;
+}
+
+.highlight-tertiary {
+    background-color: #ff922b;
+}
+
+
+.logo-md {
+    width: 100px;
+}
+.logo-sm {
+    width: 80px;
+}
+
+.navbar {
+    height: var(--nav-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20rem;
+}
+
+.nav-btn-container {
+    display: flex;
+    gap: 2rem;
+}
+.hero-heading {
+    margin-bottom: 1.5rem;
+}
+.hero-paragraph {
+    margin-bottom: 5rem;
+}
+
+.hero-section {
+    height: calc(65vh - var(--nav-height));
+    min-height: 400px;
+    text-align: center;
+    margin-bottom:10rem;
+}
+
+.hero-section-tags {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+.feature-display {
+    display: flex;
+    flex-direction: column;
+    gap: 22rem;
+}
+
+.feature-display-flex {
+    display:flex;
+    gap: 3rem;
+    justify-content: center;
+    
+    
+}
+.cards {
+    width: 55%;
+}
+
+.cards-middle {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.features-section {
+    margin-bottom: 23rem;
+}
+
+.features-main-heading {
+    text-align: center;
+    margin-bottom: 15rem;
+}
+.feature-headings {
+    margin-bottom: 2rem;
+}
+.feature-img {
+    max-width: 400px;
+    width: 100%;
+}
+
+.cta-section {
+    text-align: center;
+    margin-bottom: 22rem;
+}
+.cta-card {
+    
+    text-align: center;
+    background-color: #339af0;
+    max-width: 1000px;
+    padding: 6rem 13rem;
+    border-radius:20px;
+    margin: 0 auto;
+}
+
+
+.cta-heading {
+    margin-bottom: 3rem;
+    color: white;
+}
+.footer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-icons {
+    width: 20px;
+}
+
+.social-icon-container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-links-container {
+
+    display: flex;
+    gap: 1rem;
+}
